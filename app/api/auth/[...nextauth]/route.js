@@ -1,6 +1,6 @@
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import { compare } from "bcrypt";
+
 import { sql } from "@vercel/postgres";
 
 const handler = NextAuth({
